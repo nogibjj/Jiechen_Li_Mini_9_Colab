@@ -1,19 +1,19 @@
 [![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
 
-## Jiechen_Li_Mini_9_Colab
+# Jiechen_Li_Mini_9_Colab
 
-The purpose of this repo is to generate the descriptive statistics on datasets using Pandas.
+## Purpose
 
-### Files
+* Set up a cloud-hosted Jupyter Notebook (e.g., Google Colab)
+* Perform data manipulation tasks on a sample dataset
 
-- ``.devcontainer`` configures local development container environment
-- ``github/workflows/ci.yml`` triggers CI/CD on git push and pull request
-- ``.gitignore`` specifies which files or directories should be excluded from version control when using Git
-- ``Makefile`` build commands and utilities
-- ``README.md`` instruction file for the readers
-- ``requirements.txt`` specifies the dependencies (libraries and packages) required to run the project
+## Preparation
 
-### CI/CD
+1. Open codespaces
+2. Create Google Colab Notebook
+3. Wait for container to be built with requiremnts.txt installed
+
+## CI/CD
 
 On git push/pull request the CI/CD flow is triggered using Github Actions:
 
@@ -25,21 +25,25 @@ On git push/pull request the CI/CD flow is triggered using Github Actions:
 6. Build distroless rusty-ds image
 7. Push image to [Github Container Registry](https://github.com/athletedecoded?tab=packages)
 
-### Preparation
+## Task Preformed
 
-1. Open codespaces
-2. Wait for container to be built with requiremnts.txt installed
+1. Clone [Jiechen_Li_Mini_2_Pandas](https://github.com/nogibjj/Jiechen_Li_Mini_2_Pandas.git) as the template
+2. Creat a new juptyter notebook on Google Colab
+3. Perform data manipulation in the jupyter notebook
+4. Link the Google Colab to Github
 
-### Generate the Descriptive Statistics
+## Deliverables
 
-![img](./discriptive_stat.png)
+* [Link to the cloud-hosted notebook](https://colab.research.google.com/drive/1aAoZy0GuNYF7m7dGOXIIfQOp5lXs9z5R?usp=sharing)
+* [Document demonstrating the tasks performed](task_performed.md)
 
-### Visualizations
+## Visualizations
 
-Visualization of historgram on Age can be ran by using `python test_main.py`
+1. **Relationship between room types and price**
+<img decoding="async" src="./7.png" width="85%"><br/>  
 
-![img](./Age_Figure_1.png)
+2. **Relationship between beds and price**
+<img decoding="async" src="./8.png" width="85%"><br/>
 
-### Summary Report
-
-Please check ``data_summary.pdf`` for details
+3. **Relationship between room types, beds number, and price**
+<img decoding="async" src="./9.png" width="85%"><br/>
