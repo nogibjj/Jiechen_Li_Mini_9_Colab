@@ -1,4 +1,4 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
+[![CI](https://github.com/nogibjj/Jiechen_Li_Mini_9_Colab/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/Jiechen_Li_Mini_9_Colab/actions/workflows/ci.yml)
 
 # Jiechen_Li_Mini_9_Colab
 
@@ -9,28 +9,16 @@
 
 ## Preparation
 
-1. Open codespaces
+1. Open Codespaces
 2. Create Google Colab Notebook
 3. Wait for container to be built with requiremnts.txt installed
-
-## CI/CD
-
-On git push/pull request the CI/CD flow is triggered using Github Actions:
-
-1. Install and validate Rust toolchain
-2. Format and lint code
-3. Run unit tests
-4. Build binary release
-5. Lint Dockerfile
-6. Build distroless rusty-ds image
-7. Push image to [Github Container Registry](https://github.com/athletedecoded?tab=packages)
 
 ## Task Preformed
 
 1. Clone [Jiechen_Li_Mini_2_Pandas](https://github.com/nogibjj/Jiechen_Li_Mini_2_Pandas.git) as the template
 2. Creat a new juptyter notebook on Google Colab
-3. Perform data manipulation in the jupyter notebook
-4. Link the Google Colab to Github
+3. Perform data manipulation in the Jupyter Notebook
+4. Link the Google Colab to GitHub
 
 ## Deliverables
 

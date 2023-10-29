@@ -23,7 +23,7 @@ In my Google Colab Notebook, I use Airbnb dataset to load data, clean data, and 
 
 ## Data Cleaning: <br/>
 
-1. **Clean "room_type**
+1. **Clean "room_type"**
 <img decoding="async" src="./6.png" width="85%">  
 
 ## EDA: <br/>
