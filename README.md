@@ -1,10 +1,10 @@
 [![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
 
-## Jiechen_Li_Mini_2_Pandas
+## Jiechen_Li_Mini_9_Colab
 
-The purpose of this repo is to generate the descriptive statistics on datasets using Pandas. 
+The purpose of this repo is to generate the descriptive statistics on datasets using Pandas.
 
-### Files 
+### Files
 
 - ``.devcontainer`` configures local development container environment
 - ``github/workflows/ci.yml`` triggers CI/CD on git push and pull request
@@ -12,7 +12,6 @@ The purpose of this repo is to generate the descriptive statistics on datasets u
 - ``Makefile`` build commands and utilities
 - ``README.md`` instruction file for the readers
 - ``requirements.txt`` specifies the dependencies (libraries and packages) required to run the project
-
 
 ### CI/CD
 
@@ -27,17 +26,20 @@ On git push/pull request the CI/CD flow is triggered using Github Actions:
 7. Push image to [Github Container Registry](https://github.com/athletedecoded?tab=packages)
 
 ### Preparation
-1. Open codespaces 
+
+1. Open codespaces
 2. Wait for container to be built with requiremnts.txt installed
 
-### Generate the Descriptive Statistics 
+### Generate the Descriptive Statistics
 
 ![img](./discriptive_stat.png)
 
 ### Visualizations
-Visualization of historgram on Age can be ran by using `python test_main.py` 
+
+Visualization of historgram on Age can be ran by using `python test_main.py`
 
 ![img](./Age_Figure_1.png)
 
 ### Summary Report
+
 Please check ``data_summary.pdf`` for details
